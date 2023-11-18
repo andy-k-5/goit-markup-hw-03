@@ -21,86 +21,93 @@
     <!--header-->
 
     <header class="main-header">
-      <nav class="page-nav">
-        <a class="main logo link" href="./index.html"
-          >Web<span class="logo-first">Studio</span></a
-        >
-        <ul class="menu list link">
-          <li class="menu-item">
-            <a class="menu-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address-list" style="">
-        <ul class="address-info">
-          <li>
-            <a class="address-item link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="address-item link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="main-header-container">
+        <nav class="page-nav">
+          <a class="main logo link" href="./index.html"
+            >Web<span class="logo-first">Studio</span></a
+          >
+          <ul class="menu list link">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address-list">
+          <ul class="address-info">
+            <li>
+              <a class="address-item link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-item link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!--hero-->
       <section class="top-section">
-        <h1 class="top-title">Effective Solutions for Your Business</h1>
-        <button class="jump text" type="button">Order Service</button>
+        <div class="top-section-container">
+          <h1 class="top-title">Effective Solutions for Your Business</h1>
+          <button class="jump text" type="button">Order Service</button>
+        </div>
       </section>
 
       <!--feature-->
-      <section>
-        <h2>Our features</h2>
-        <ul>
-          <li>
-            <h3 class="advantages">Strategy</h3>
-            <p class="description">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages">Punctuality</h3>
-            <p class="description">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages">Diligence</h3>
-            <p class="description">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages">Technologies</h3>
-            <p class="description">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="section">
+        <div>
+          <h2 class="visually-hidden">Our features</h2>
+          <ul>
+            <li>
+              <h3 class="advantages">Strategy</h3>
+              <p class="description">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantages">Punctuality</h3>
+              <p class="description">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantages">Diligence</h3>
+              <p class="description">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantages">Technologies</h3>
+              <p class="description">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--our team-->
 
-      <section class="team">
+      <section class="team section">
         <h2 class="second-title">Our Team</h2>
-        <ul>
+        <ul class="person-list">
           <li class="team-person">
             <img
+              class="img-team"
               src="./images1/mark.jpg"
               alt="Mark Guerrero"
               width="264"
@@ -111,6 +118,7 @@
           </li>
           <li class="team-person">
             <img
+              class="img-team"
               src="./images1/tom.jpg"
               alt="Tom Ford"
               width="264"
@@ -121,6 +129,7 @@
           </li>
           <li class="team-person">
             <img
+              class="img-team"
               src="./images1/camila.jpg"
               alt="Camila Garcia"
               width="264"
@@ -131,6 +140,7 @@
           </li>
           <li class="team-person">
             <img
+              class="img-team"
               src="./images1/daniel.jpg"
               alt="Daniel Wilson"
               width="264"
@@ -144,9 +154,9 @@
 
       <!--Our portfolio-->
 
-      <section>
+      <section class="section">
         <h2 class="second-title">Our Portfolio</h2>
-        <ul>
+        <ul class="portfolio-list">
           <li>
             <img
               src="./images2/banking.jpg"
