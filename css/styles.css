@@ -209,14 +209,25 @@ body {
 
 /*feature*/
 
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .features-list {
   display: flex;
-  justify-content: space-around;
-  column-gap: 24px;
-  margin-right: 156px;
-  margin-left: 156px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages {
@@ -236,6 +247,14 @@ body {
 }
 
 /*our team*/
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .team {
   background: var(--CLOUD, #f4f4fd);
@@ -276,6 +295,19 @@ body {
 
 /*our portfolio*/
 
+.portfolio-list-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .second-title {
   text-align: center;
   text-transform: capitalize;
@@ -292,10 +324,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 48px 24px;
-}
-
-.portfolio-item-container {
-  width: calc((100% - 48px) / 3);
 }
 
 .second-part-item-container {
@@ -322,6 +350,14 @@ body {
 }
 
 /*footer*/
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .main-footer {
   background: var(--NAVY-BLUE, #2e2f42);
