@@ -383,6 +383,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--CLOUD, #f4f4fd);
+}
+
+.footer-link {
   margin-bottom: 16px;
 }
 
