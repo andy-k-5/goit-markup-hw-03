@@ -64,6 +64,10 @@ body {
 }
 
 /*header*/
+
+.main-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .main-header-container {
   display: flex;
   width: 1158px;
@@ -195,11 +199,9 @@ body {
 }
 
 .click-button {
-  width: auto;
-  height: 56px;
+  min-width: 169px;
   padding: 16px 32px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 .jump:hover,
@@ -261,12 +263,12 @@ body {
 }
 .team-person {
   background: var(--WHITE, #fff);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.img-team {
-  margin-bottom: 32px;
-  border-radius: 0px 0px 4px 4px;
-  background: var(--WHITE, #fff);
+.team-icon {
+  padding: 32px 0;
+  gap: 8px;
 }
 
 .person-list {
@@ -330,6 +332,14 @@ body {
   width: calc((100% - 48px) / 3);
 }
 
+.portfolio-icon {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  background: #fff;
+  padding: 32px 16px;
+  margin-bottom: 8px;
+}
+
 .department {
   font-size: 16px;
   font-weight: 400;
@@ -350,10 +360,7 @@ body {
 
 .main-footer {
   background: var(--NAVY-BLUE, #2e2f42);
-}
-
-.main {
-  line-height: 1.17;
+  padding: 100px 0;
 }
 
 .logo {
@@ -372,6 +379,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--CLOUD, #f4f4fd);
+  margin-bottom: 17px;
 }
 
 .final {
@@ -380,4 +388,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--CLOUD, #f4f4fd);
+  max-width: 264px;
+  margin-top: 18px;
 }
