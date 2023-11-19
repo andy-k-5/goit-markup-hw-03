@@ -103,7 +103,6 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  margin-right: 76px;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
   letter-spacing: 0.03em;
@@ -114,7 +113,6 @@ body {
   display: flex;
   column-gap: 40px;
   margin-left: 76px;
-  margin-right: 40px;
 }
 
 .menu-link {
@@ -125,7 +123,6 @@ body {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
-  gap: 40px;
   color: var(--NAVY-BLUE, #2e2f42);
 }
 
@@ -152,7 +149,6 @@ body {
   line-height: 1.5;
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-right: 0;
   letter-spacing: 0.02em;
   color: var(--SLATE, #434455);
 }
@@ -365,6 +361,10 @@ body {
 .main-footer {
   background: var(--NAVY-BLUE, #2e2f42);
   padding: 100px 0;
+}
+
+.main {
+  line-height: 1.17;
 }
 
 .logo {
