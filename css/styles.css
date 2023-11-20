@@ -72,10 +72,6 @@ body {
 
 .container {
   width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .top-header {
@@ -173,7 +169,7 @@ body {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .jump {
@@ -208,13 +204,6 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .features-list {
   display: flex;
@@ -244,14 +233,6 @@ body {
 
 /*our team*/
 
-.container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .team {
   background: var(--CLOUD, #f4f4fd);
 }
@@ -261,8 +242,7 @@ body {
 }
 
 .team-icon {
-  padding: 32px 0;
-  gap: 8px;
+  padding: 32px 0 32px 0;
 }
 
 .person-list {
@@ -270,7 +250,6 @@ body {
   justify-content: center;
   text-align: center;
   gap: 24px;
-  padding-top: 72px;
   column-gap: 24px;
 }
 
@@ -296,14 +275,6 @@ body {
 .portfolio-list-section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .second-title {
@@ -333,7 +304,6 @@ body {
   border-top: none;
   background: #fff;
   padding: 32px 16px;
-  margin-bottom: 8px;
 }
 
 .production {
@@ -372,8 +342,6 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--IRIS, #4d5ae5);
 }
 
 .logo-name {
@@ -396,5 +364,4 @@ body {
   letter-spacing: 0.02em;
   color: var(--CLOUD, #f4f4fd);
   max-width: 264px;
-  margin-top: 18px;
 }
